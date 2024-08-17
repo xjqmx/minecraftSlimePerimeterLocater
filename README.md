@@ -1,4 +1,4 @@
-# minecraftSlimePerimeterLocater
+# minecraftSlimePerimeterLocator
 一个用于在Java版Minecraft中定位史莱姆农场空置域的建造位置的小工具，它可以在给定的区块范围内定位出单名玩家的刷怪范围（24-128格）内史莱姆区块最多的若干个区域的中心区块坐标，并计算出其对应的可用于生成史莱姆的有效区块和有效方块数量。
 
 ## 使用要求
