@@ -1,6 +1,6 @@
 import java.util.Random;
 
-public class minecraftSlimePerimeterLocater {
+public class minecraftSlimePerimeterLocator {
     public static void main(String[] args) {
         long world_seed = 3523598249870287597L;
         int central_chunk_x_start = -500;
