@@ -2,12 +2,12 @@ import java.util.Random;
 
 public class minecraftSlimePerimeterLocator {
     public static void main(String[] args) {
-        long world_seed = 3523598249870287597L;
-        int central_chunk_x_start = -500;
-        int central_chunk_x_end = 500;
-        int central_chunk_z_start = -500;
-        int central_chunk_z_end = 500;
-        int min_slime_chunk_requirement = 43;
+        long world_seed = 3523598249870287597L;  //世界种子
+        int central_chunk_x_start = -500;        //中心区块X轴检索范围起始坐标
+        int central_chunk_x_end = 500;           //中心区块X轴检索范围终止坐标
+        int central_chunk_z_start = -500;        //中心区块Z轴检索范围起始坐标
+        int central_chunk_z_end = 500;           //中心区块Z轴检索范围终止坐标
+        int min_slime_chunk_requirement = 43;    //输出结果中最小史莱姆区块数量需求
 
         int chunks_to_check_x_start = central_chunk_x_start - 8;
         int chunks_to_check_x_end = central_chunk_x_end + 8;
