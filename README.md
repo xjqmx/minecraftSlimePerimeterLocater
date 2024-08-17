@@ -11,10 +11,10 @@ Java编译和运行环境
 |参数名                     |示例                         |描述                          |
 |---------------------------|----------------------------|------------------------------|
 |world_seed                 |3523598249870287597L        |世界种子                       |
-|central_chunk_x_start      |-500                        |中心区块X轴起始坐标             |
-|central_chunk_x_end        |500                         |中心区块X轴终止坐标             |
-|central_chunk_z_start      |-500                        |中心区块Z轴起始坐标             |
-|central_chunk_z_end        |500                         |中心区块Z轴终止坐标             |
+|central_chunk_x_start      |-500                        |中心区块X轴检索范围起始坐标      |
+|central_chunk_x_end        |500                         |中心区块X轴检索范围终止坐标      |
+|central_chunk_z_start      |-500                        |中心区块Z轴检索范围起始坐标      |
+|central_chunk_z_end        |500                         |中心区块Z轴检索范围终止坐标      |
 |min_slime_chunk_requirement|43                          |最小史莱姆区块数量需求          |
 
 3.编译并运行
